@@ -1,0 +1,9 @@
+module.exports = {
+  OPENCAGE_KEY: process.env.OPENCAGE_KEY || "f9c9cb6be0c944149e57d5cce7b10b55",
+  OPENTRIPMAP_KEY: process.env.OPENTRIPMAP_KEY || "5ae2e3f221c38a28845f05b6b9ffb0011633af45fbf6f1d1760f33d1",
+  OPENWEATHER_KEY: process.env.OPENWEATHER_KEY || "15b9d664deb34d1d32785f95cf33914e",
+  API_TIMEOUT_MS: 5000,
+  CACHE_TTL_MS: 10 * 60 * 1000,
+  PRICE_CACHE_TTL_MS: 30 * 60 * 1000,
+  PORT: process.env.PORT || 5000,
+};
